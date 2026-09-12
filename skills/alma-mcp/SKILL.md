@@ -40,7 +40,7 @@ source tools is almost always missing this header.
 
 ## Tool families
 
-- `alma_*` — core tools: topics, updates, directives, workflow interaction.
+- `alma_*` — core tools: topics, updates, lessons, workflow interaction.
   These names are a stable public surface; integrations depend on them.
 - `dyn__composio__*` — dynamic tools generated from the sources the organization
   has connected. The set varies per org and per member permissions; list tools
