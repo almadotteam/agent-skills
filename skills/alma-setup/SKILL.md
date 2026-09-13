@@ -55,7 +55,7 @@ Schema. This is the step that turns Alma from connected to knowledgeable.
 
 ## 6. Working agreements
 
-Standing instructions live as lessons (`alma_create_directive`) — e.g.
+Standing instructions live as lessons (`alma_create_lesson`) — e.g.
 "weekly summaries go out Friday morning" (fictional example). Actions Alma isn't
 sure about surface as pending actions for approval; show the user where those
 appear so nothing silently waits on them.
