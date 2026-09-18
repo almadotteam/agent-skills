@@ -15,9 +15,10 @@ Order matters: profile first (it shapes what Alma suggests), then sources
 
 ## 1. Organization profile
 
-`alma_onboarding_update_profile` and `alma_onboarding_update_org` record who the
-user is and what the company does. Two sentences of honest description here
-improve every downstream suggestion — do this before anything else.
+`alma_onboarding_update_org` records the team's size, and
+`alma_update_organization` sets the name, description and timezone. Two
+sentences of honest description here improve every downstream suggestion — do
+this before anything else.
 
 ## 2. Connect sources
 
