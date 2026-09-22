@@ -15,17 +15,17 @@ Order matters: profile first (it shapes what Alma suggests), then sources
 
 ## 1. Organization profile
 
-`alma_onboarding_update_org` records the team's size, and
-`alma_update_organization` sets the name, description and timezone. Two
-sentences of honest description here improve every downstream suggestion — do
-this before anything else.
+`alma_update_organization` sets the name, description and timezone. Team size
+and the rest of the first-run choices live in the setup wizard in the Alma web
+app (Setup, under the workspace). Two sentences of honest description here
+improve every downstream suggestion — do this before anything else.
 
 ## 2. Connect sources
 
-`alma_onboarding_list_integrations` shows what can be connected and what already
-is. The OAuth flows themselves run in the browser under Connections in the Alma
-console — send the user there for each source; an agent cannot complete OAuth on
-their behalf.
+`alma_list_connections` shows what is already connected. New connections and
+their OAuth flows run in the browser under Connections in the Alma console —
+send the user there for each source; an agent cannot complete OAuth on their
+behalf.
 
 Priority order: the system where work is discussed (Slack or email) first, then
 the calendar, then the system of record (CRM or similar). One connected source
@@ -37,16 +37,15 @@ personal connection is usually the missing piece.
 
 ## 3. Starter workflows
 
-`alma_onboarding_list_templates` lists ready-made workflow templates;
-`alma_onboarding_create_from_template` instantiates one. Start with one or two —
-a workspace that immediately does something visible is what convinces a team.
-Custom workflows can come later via `alma_create_workflow`.
+The setup wizard offers ready-made workflow templates; start with one or two — a
+workspace that immediately does something visible is what convinces a team.
+Custom workflows can be created any time with `alma_create_workflow`.
 
 ## 4. Team
 
-`alma_onboarding_send_invitations` invites teammates by email. Do this after
-sources and a first workflow exist, so invitees land in a workspace that already
-shows value.
+Invite teammates by email from the setup wizard or the workspace's member
+settings in the Alma web app. Do this after sources and a first workflow exist,
+so invitees land in a workspace that already shows value.
 
 ## 5. Org map and schema
 
