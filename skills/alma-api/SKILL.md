@@ -74,6 +74,12 @@ curl -X POST https://api.alma.team/v1/tools/<source>/<tool> \
   -d '{"arguments": {"example_field": "example value"}}'
 ```
 
+Some calls need a person's approval first. Then nothing runs and the answer is
+`202` with `{"status": "pending_approval", "pending_action_id": "..."}`: the
+call waits in Alma for whoever the workspace names. Once it's approved, make
+the same call again with the same arguments and the same key, and it runs
+once. A key can't approve a call it asked for itself.
+
 ## Conduct
 
 - Rate limits apply per credential; back off on `429`.
