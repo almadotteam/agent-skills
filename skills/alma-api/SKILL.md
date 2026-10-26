@@ -56,7 +56,7 @@ proof the data doesn't exist.
 | Tools     | `GET /v1/tools`, `POST /v1/tools/{source}/{tool}`, `GET /v1/tool-executions`                                                    |
 | Workflows | `GET /v1/workflows/{id}/executions`, `GET /v1/workflows/{id}/steps`, `GET /v1/executions/{id}`, `POST /v1/executions/{id}/stop` |
 | Approvals | `GET /v1/pending-actions`, `POST /v1/pending-actions/{id}/approve`, `POST /v1/pending-actions/{id}/reject`                      |
-| Other     | `GET /v1/connections`, `GET /v1/folders`, `GET /v1/config-audit`                                                                |
+| Other     | `GET /v1/connections`, `GET /v1/config-audit`                                                                                   |
 
 Consult the OpenAPI spec for parameters, filters, and response shapes — the list
 above is the map, not the contract.

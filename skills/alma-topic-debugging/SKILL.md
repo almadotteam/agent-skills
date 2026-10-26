@@ -26,9 +26,9 @@ first diagnosis:
   someone approves it in Memory. Fix: review and accept.
 - `archived` — someone dismissed it. Don't recreate it silently; ask.
 - `paused` — live dossier, updates suspended.
-- Not visible at all — check folder access rules: topics live in folders with
-  allowlist permissions, and a topic the user can't see is indistinguishable
-  from one that doesn't exist. Same for API keys bound to read subjects or a
+- Not visible at all — check the record's type permissions and its own access
+  exceptions: a topic the user can't see is indistinguishable from one that
+  doesn't exist. Same for API keys bound to read subjects or a
   topic allowlist: an empty read is not proof of absence.
 
 ## Stage 2 — is the source feeding it?
