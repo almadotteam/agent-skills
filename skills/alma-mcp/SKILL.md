@@ -46,6 +46,20 @@ source tools is almost always missing this header.
   connected. The set varies per org and per member permissions; list tools at
   runtime rather than assuming a fixed catalog.
 
+## Where to look
+
+Topics are the organization's maintained record of its companies, people and
+projects, so read them before searching:
+
+1. `alma_list_topics` with status `["active","paused"]` finds the topic.
+2. `alma_get_topic_memory` returns its facts and updates.
+3. `alma_search_knowledge_base` is for when those tools are not offered, when
+   the list is too long to read or is cut off, when no topic fits the question,
+   or when you need the source material behind a topic.
+
+An empty or failed search does not mean the topics lack the answer, so check
+them before saying there is none.
+
 ## Conduct
 
 - Mutating tools may pause for human approval inside Alma rather than failing —
