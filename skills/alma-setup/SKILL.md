@@ -15,9 +15,10 @@ Order matters: profile first (it shapes what Alma suggests), then sources
 
 ## 1. Organization profile
 
-`alma_update_organization` sets the name, description and timezone. Team size
-and the rest of the first-run choices live in the setup wizard in the Alma web
-app (Setup, under the workspace). Two sentences of honest description here
+`alma_update_organization` sets the name, description and timezone. The rest
+of the first-run choices are made in onboarding in the Alma web app, which a
+new workspace's founder walks after signing up; anything it left open carries
+on in their Home. Two sentences of honest description here
 improve every downstream suggestion — do this before anything else.
 
 ## 2. Connect sources
@@ -37,14 +38,14 @@ personal connection is usually the missing piece.
 
 ## 3. Starter workflows
 
-The setup wizard offers ready-made workflow templates; start with one or two — a
-workspace that immediately does something visible is what convinces a team.
-Custom workflows can be created any time with `alma_create_workflow`.
+Start with one or two workflows — a workspace that immediately does something
+visible is what convinces a team. Workflows can be created any time with
+`alma_create_workflow`.
 
 ## 4. Team
 
-Invite teammates by email from the setup wizard or the workspace's member
-settings in the Alma web app. Do this after sources and a first workflow exist,
+Invite teammates by email from onboarding's invitations screen or the
+workspace's member settings in the Alma web app. Do this after sources and a first workflow exist,
 so invitees land in a workspace that already shows value.
 
 ## 5. Org map and schema
